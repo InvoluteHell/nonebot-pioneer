@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "Python: bot.py",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/bot.py",
+      "args": [
+        "--port",
+        "1593"
+      ],
+      "presentation": {
+        "hidden": false,
+        "group": "",
+        "order": 1,
+      }
+    }
+  ]
+}
