@@ -1,6 +1,6 @@
 # nonebot-pioneer
 
-This project is a playground for [NoneBot2][nonebot2]. Documents for NoneBot2 could be find [->here][nonebot2-message-matcher].
+This project is a playground for [NoneBot2][nonebot2]. Documents for NoneBot2 could be found [->here][nonebot2-message-matcher].
 
 
 ## Environment Requirements
