@@ -9,12 +9,15 @@ readme = "README.md"
 python = "^3.7.3"
 nonebot2 = "^2.0.0.a1"
 nonebot-adapter-cqhttp = "2.0.0a16"
+SQLAlchemy = "^1.4.27"
+dependency-injector = "^4.37.0"
 
 [tool.poetry.dev-dependencies]
 nb-cli = "^0.5.0"
 nonebot-plugin-test = "^0.3.0"
 black = "^21.10b0"
 flake8 = "^4.0.1"
+flake8-black = "^0.2.3"
 
 [tool.black]
 line-length = 88
