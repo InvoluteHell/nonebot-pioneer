@@ -21,16 +21,12 @@ driver = nonebot.get_driver()
 driver.register_adapter("cqhttp", CQHTTPBot)
 
 
-# Please DO NOT modify this file unless you know what you are doing!
-# As an alternative, you should use command `nb` or modify `pyproject.toml` to
-# load plugins
-nonebot.load_from_toml("pyproject.toml")
+# Load plugins
+nonebot.load_plugins("./plugins")
 
-# Modify some config / config depends on loaded configs
-#
-# config = driver.config
-# do something...
-
+# Load dev plugins
+if driver.config.debug:
+    nonebot.load_plugin("nonebot_plugin_test")
 
 if __name__ == "__main__":
     nonebot.logger.warning(

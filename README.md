@@ -46,6 +46,10 @@ Formatter [black] is selected with some configurations in `./pyproject.toml`.
 ### Debugging
 A launch configuration is add to this project, please use the default debugger.
 
+
+### Testing
+run `python -m pytest` to test functions.
+
 ## Some Notes:
 Dockerfile has not been edited correctly, some modification may needed.
 
